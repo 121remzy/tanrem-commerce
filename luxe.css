@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 1024px){
+    .lu h1{
+        border: 1px solid black;
+        color: black;
+        width: 70px;
+        text-align: center;
+    }
+    .xe h1{
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        width: 80px;
+        text-align: center;
+    }
+    .logo{
+        display: flex;
+    }
+    .search input{
+        width: 500px;
+        height: 5vh;
+        border-radius: 15px;
+        padding: 20PX;
+    }
+    .control{
+        display: flex;
+        justify-content: center;
+        margin: 20px 80px;
+       justify-content: space-between;
+       /* background-color: cornflowerblue; */
+    }
+    .sidebar .categories{
+        background-color: red;
+        /* width: 200px; */
+        text-align: center;
+        padding: 10px 50px;
+        color: white;
+    }
+    .sidebar{
+        margin: 20px 80px;
+        background-color: white;
+        border: 1px solid wheat;
+       width: 10%;
+       
+        
+    }
+    .sidebar a{
+        text-decoration: none;
+    }
+    .main1{
+        width: 100%;
+        display: flex;
+    }
+    .remains{
+        width: 165px;
+        text-align: center;
+        padding: 20px 0px;
+        color: black;
+        text-decoration: none;
+        display: block;
+        background-color: white;
+    }
+    .remains:hover{
+        color: red;
+    }
+    .nav{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav a{
+        color: black;
+        text-decoration: none;
+        margin: 40px;
+        padding: 10px 0px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav a:hover{
+        color: red;
+    }
+    .left{
+        /* color: red; */
+        margin-left: 90px;
+        width: 30%;
+        margin-top: 100px;
+    }
+    .text h1{
+        font-size: 70px;
+    }
+    .text a:hover{
+        color: orangered;
+    }
+    .sma{
+        border-radius: 50%;
+        padding: 0px 10px;
+        background-color: red;
+        color: white;
+    }
+    .watch{
+        color: red;
+    }
+    .content{
+        display: flex;
+    }
+    .right{
+        margin-top: 60px;
+    }
+    .text a{
+        color: black;
+        padding: 20px;
+    }
+    .delivery i{
+        font-size: 70px;
+        margin-left: 350px;
+    }
+    .delivery{
+        width: 40%;
+        background-color: lightgrey;
+        align-items: center;
+        /* text-align: center; */
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .delivery:hover{
+        transform: scale(1.2);
+    }
+    .product{
+        margin: 20px 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .delivery h2{
+        background-color: red;
+        width: 300px;
+        padding: 5px;
+        color: white;
+    }
+    .delivery span{
+        color: red;
+    }
+    .quality i{
+        font-size: 70px;
+        margin-left: 350px;
+    }
+    .quality{
+        width: 40%;
+        background-color: lightgrey;
+        align-items: center;
+        /* text-align: center; */
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .quality:hover{
+        transform: scale(1.2);
+    }
+    .quality h2{
+        background-color: red;
+        width: 300px;
+        padding: 5px;
+        color: white;
+    }
+    .quality span{
+        color: red;
+    }
+    .more{
+        text-align: center;
+        border-bottom: 5px solid red;
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 400px;
+    }
+    .rating{
+        justify-content: center;
+        /* width: 100%; */
+        text-align: center;  
+    }
+    .tshirt img{
+        margin: 20px;
+        height: 300px;
+    }
+    .tshirt{
+        display: flex;
+        justify-content: center;
+        /* width: 100%; */
+    
+    }
+    .footer{
+        background-color: black;
+        width: 100%;
+        height: 40vh;
+        justify-content: center;
+        text-align: center;
+    }
+    .download{
+        margin-right: 80px;
+    }
+    .download h2{
+        color: white;
+    }
+    .download p{
+        color: grey;
+    }
+    .cla{
+        width: 80%;
+        border-bottom: 1px solid white;
+        margin: 0px 150px;
+        display: flex;
+    }
+    .red{
+        margin-right: 80px;
+    }
+    .red p{
+         color: gray;
+    }
+    .tan{
+        color: white;
+        border: 1px solid white;
+        background-color: red;
+    }
+    .rem{
+        color: white;
+        border: 1px solid white;
+    }
+      
+}
